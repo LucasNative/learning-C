@@ -13,7 +13,7 @@ void print(char *s)
 		ft_putchar(*s++);
 }
 
-// 
+// variable 'my_string' is reciving a string writed in decimal and hexedecimal, just for testing reasons
 int main(void)
 {
 	char my_string[] = {72,101,108,108,111,32, 0x57, 0x6F, 0x72, 0x6C, 0x64,0x21, '\n'};
